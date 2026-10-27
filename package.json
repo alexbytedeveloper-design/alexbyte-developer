@@ -1,0 +1,13 @@
+{
+  "name": "alexbyte",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @alexbyte/web dev",
+    "dev:api": "pnpm --filter @alexbyte/api dev",
+    "build": "pnpm --filter @alexbyte/api typecheck && pnpm --filter @alexbyte/web build",
+    "start": "pnpm --filter @alexbyte/web start",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "assets:generate": "pnpm --filter @alexbyte/web assets:generate"
+  }
+}

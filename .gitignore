@@ -1,0 +1,34 @@
+node_modules/
+.pnpm-store/
+
+# Builds
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+coverage/
+
+# Local tooling (not part of the site)
+.opencode/
+.idea/
+.vscode/
+*.local
+
+# Internal notes and source assets
+idea-1.md
+pipeline.md
+context.md
+WA_*.png
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db

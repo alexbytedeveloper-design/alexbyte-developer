@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "siteName": "<alexbyte/>",
+    "defaultTitle": "Alex · Développeur web et UI/UX",
+    "defaultDescription": "Développeur web et UI/UX avec des technologies modernes et assisté par l'intelligence artificielle. Portfolio, blog technique et ressources pour développeurs.",
+    "home": {
+      "title": "Développeur web et UI/UX",
+      "description": "Un lieu entre développeurs pour apprendre et s'entraider. Portfolio, blog technique, applications et ressources gratuites d'Alex."
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Je suis Alex, développeur web et UI/UX. Je construis des produits avec Next.js, TypeScript et des workflows assistés par IA."
+    },
+    "projects": {
+      "title": "Projets",
+      "description": "Projets web, applications téléchargeables et SaaS avec IA. Fiches techniques, captures et téléchargements."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Articles techniques et snippets sur le développement web, TypeScript, l'IA et les bonnes pratiques."
+    },
+    "resources": {
+      "title": "Ressources",
+      "description": "Guides PDF gratuits sur le développement assisté par IA, le SDD, Markdown et les agents."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Parlons de votre projet, d'une collaboration ou d'une question technique."
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Des idées et des ressources sur le développement web et l'IA, une fois par mois et sans bruit."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "description": "Comment vos données sont traitées sur alexbyte.dev."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "description": "Conditions d'utilisation du site et des ressources téléchargeables."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "Quels cookies alexbyte.dev utilise et comment les gérer."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "description": "La page que vous cherchez n'existe pas ou a été déplacée."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "blog": "Blog",
+    "resources": "Ressources",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Parlons-en",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "language": "Changer de langue",
+    "skip": "Aller au contenu"
+  },
+  "common": {
+    "readMore": "Lire la suite",
+    "viewProject": "Voir le projet",
+    "viewAll": "Voir tout",
+    "backTo": "Retour à",
+    "published": "Publié",
+    "updated": "Mis à jour",
+    "minRead": "{minutes} min de lecture",
+    "demo": "Contenu de démonstration",
+    "demoNote": "Ce contenu est une démonstration et sera remplacé par des informations réelles.",
+    "download": "Télécharger",
+    "viewOnline": "Lire en ligne",
+    "all": "Tous",
+    "filters": "Filtrer par type",
+    "empty": "Il n'y a pas encore de contenu ici.",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "copy": "Copier",
+    "copied": "Copié",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "slideOf": "Capture {current} sur {total}",
+    "external": "S'ouvre dans un nouvel onglet",
+    "optional": "facultatif",
+    "required": "obligatoire",
+    "comingSoon": "Bientôt disponible",
+    "error": "Une erreur est survenue.",
+    "close": "Fermer"
+  },
+  "hero": {
+    "badge": "Disponible pour des projets",
+    "hello": "Bonjour, je suis Alex",
+    "title1": "Développeur web",
+    "title2": "et UI/UX",
+    "file": "alexbyte.ts",
+    "phrase": "Un lieu entre développeurs pour apprendre et s'entraider",
+    "accent": "entre développeurs",
+    "subtitle": "Je suis Alex, développeur web et UI/UX. Je construis des produits avec des technologies modernes et un workflow assisté par IA, en soignant le détail, la performance et l'accessibilité.",
+    "ctaPrimary": "Voir les projets",
+    "ctaSecondary": "Parlons-en",
+    "stackLabel": "Stack habituelle",
+    "available": "Ouvert aux collaborations"
+  },
+  "home": {
+    "aboutKicker": "01 — À propos",
+    "aboutTitle": "Du code avec du jugement, des produits avec une intention",
+    "aboutText": "Il ne s'agit pas seulement de faire fonctionner. Il s'agit d'être rapide, accessible, maintenable et de transmettre confiance dès le premier clic. Je traite le frontend avec la même exigence qu'une API.",
+    "stackTitle": "Les outils que j'utilise au quotidien",
+    "projectsKicker": "02 — Projets",
+    "projectsTitle": "Ce que j'ai construit",
+    "projectsText": "Produits web, applications téléchargeables et expérimentations avec l'IA. Chaque fiche détaille la stack, les défis et le temps de développement.",
+    "statsProjects": "Projets",
+    "statsPosts": "Articles",
+    "statsResources": "Ressources",
+    "statsLanguages": "Langues",
+    "blogKicker": "03 — Blog",
+    "blogTitle": "Notes depuis l'éditeur",
+    "blogText": "Des articles longs et des snippets sur ce que j'apprends en construisant. Sans blabla, avec du code réutilisable.",
+    "blogCta": "Voir tous les articles",
+    "resourcesKicker": "04 — Ressources",
+    "resourcesTitle": "Des guides gratuits pour mieux développer",
+    "resourcesText": "Des PDF sur le Spec Driven Development, Markdown, le développement avec l'IA et les agents. Téléchargez, lisez et partagez.",
+    "resourcesCta": "Voir toutes les ressources",
+    "newsletterKicker": "05 — Newsletter",
+    "newsletterTitle": "Une fois par mois, quelque chose qui mérite votre temps",
+    "newsletterText": "Idées, ressources et apprentissages sur le développement web et l'IA. Double confirmation, désinscription en un clic et zéro spam.",
+    "contactKicker": "06 — Contact",
+    "contactTitle": "On construit quelque chose ensemble ?",
+    "contactText": "Dites-moi ce que vous avez en tête. Je réponds sous 24 à 48 heures ouvrées.",
+    "contactCta": "M'écrire"
+  },
+  "about": {
+    "kicker": "À propos",
+    "title": "Développeur web et UI/UX, avec un faible pour le détail",
+    "lead": "Je suis Alex. Je conçois et construis des expériences web qui semblent rapides, claires et bien pensées.",
+    "p1": "J'ai commencé le web parce que je voulais comprendre comment les choses fonctionnaient à l'intérieur. Aujourd'hui, je travaille à la frontière entre design et ingénierie : des interfaces soignées, une performance mesurable et des décisions techniques qui facilitent la maintenance.",
+    "p2": "J'utilise Next.js, TypeScript et PostgreSQL comme base. Je m'intéresse à l'accessibilité, à la sécurité et à l'automatisation avec l'IA bien appliquée : comme copilote, pas comme raccourci pour éviter de réfléchir.",
+    "p3": "Ce site est mon carnet de travail : un lieu pour publier ce que j'apprends, partager des ressources et, surtout, apprendre avec d'autres développeurs.",
+    "valuesTitle": "Ma façon de travailler",
+    "values": {
+      "clarity": {
+        "title": "La clarté d'abord",
+        "text": "Si ce n'est pas compréhensible, ce n'est pas terminé. Code lisible, interfaces explicites et documentation utile."
+      },
+      "craft": {
+        "title": "Le détail artisanal",
+        "text": "Micro-interactions, typographie, états de chargement et messages d'erreur. Les détails construisent la confiance."
+      },
+      "security": {
+        "title": "Sécurisé par défaut",
+        "text": "Validation, moindre privilège et confidentialité dès la première ligne, pas comme un correctif final."
+      },
+      "ai": {
+        "title": "L'IA avec du jugement",
+        "text": "L'IA accélère, mais les décisions sont revues. J'automatise le répétitif et je soigne ce qui compte."
+      }
+    },
+    "stackTitle": "Stack",
+    "timelineTitle": "Un peu de contexte",
+    "timeline": {
+      "t1": {
+        "year": "Maintenant",
+        "title": "Construction d'alexbyte.dev",
+        "text": "Portfolio, blog et ressources. Un espace à moi pour partager et documenter le processus."
+      },
+      "t2": {
+        "year": "2026",
+        "title": "Projets avec IA appliquée",
+        "text": "SaaS et automatisations où l'IA résout un problème concret, pas une décoration."
+      },
+      "t3": {
+        "year": "Avant",
+        "title": "Du design à l'ingénierie",
+        "text": "Interfaces, design systems et développement full-stack axé sur l'expérience finale."
+      }
+    },
+    "ctaTitle": "On travaille ensemble ?",
+    "ctaText": "J'ai de la place pour des projets freelance, des collaborations et du conseil technique.",
+    "cta": "Parlez-moi de votre idée"
+  },
+  "projects": {
+    "kicker": "Portfolio",
+    "title": "Des projets qui résolvent quelque chose",
+    "subtitle": "Web, applications de bureau et SaaS. Chaque fiche inclut des captures, la stack, les défis et le temps de construction.",
+    "count": "{count} projet(s)",
+    "empty": "Aucun projet publié avec ce filtre.",
+    "type": {
+      "web": "Web",
+      "app": "Application téléchargeable",
+      "saas": "SaaS avec IA"
+    },
+    "status": {
+      "shipped": "Publié",
+      "in-progress": "En développement",
+      "concept": "Concept"
+    },
+    "year": "Année",
+    "duration": "Temps de développement",
+    "stack": "Stack",
+    "challenges": "Principaux défis",
+    "policyTitle": "Conditions d'utilisation et confidentialité",
+    "policyText": "Avant de télécharger une application, vous devez accepter ses conditions d'utilisation et sa politique de confidentialité. Vous pouvez la lire en ligne ou la télécharger.",
+    "downloadTitle": "Télécharger la démo",
+    "downloadText": "Fichier de démonstration. La version réelle sera publiée lorsque l'application sera prête.",
+    "acceptPolicy": "J'ai lu et j'accepte les conditions d'utilisation et la politique de confidentialité",
+    "downloadCta": "Télécharger maintenant",
+    "demoNotice": "Projet d'exemple : les données, captures et téléchargements sont démonstratifs.",
+    "galleryLabel": "Captures du projet",
+    "linksTitle": "Liens",
+    "codeTitle": "Code et démo",
+    "relatedTitle": "Autres projets",
+    "backToProjects": "Retour aux projets",
+    "viewPolicy": "Lire la politique en ligne",
+    "policyPending": "Document d'exemple"
+  },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Apprendre en construisant",
+    "subtitle": "Des articles longs et des snippets courts sur le développement web, l'IA et les décisions derrière le code.",
+    "featured": "À la une",
+    "latest": "Derniers articles",
+    "snippets": "Snippets",
+    "snippetsSubtitle": "De courts morceaux de code pour résoudre des problèmes concrets.",
+    "allPosts": "Tous les articles",
+    "noPosts": "Il n'y a pas encore d'articles publiés.",
+    "publishedOn": "Publié le {date}",
+    "updatedOn": "Mis à jour le {date}",
+    "tags": "Thèmes",
+    "readingTime": "{minutes} min de lecture",
+    "backToBlog": "Retour au blog",
+    "demoNotice": "Article d'exemple. Le contenu définitif sera publié dans la version finale.",
+    "share": "Partager"
+  },
+  "snippets": {
+    "title": "Snippet",
+    "subtitle": "Du code et une explication, sans détour.",
+    "usage": "Utilisation",
+    "backToBlog": "Retour au blog"
+  },
+  "resources": {
+    "kicker": "Ressources",
+    "title": "Des guides gratuits, sans inscription",
+    "subtitle": "Ce que j'aurais aimé lire quand j'ai commencé à travailler avec l'IA et les agents. Téléchargement direct en PDF.",
+    "free": "Gratuit",
+    "pages": "{count} pages",
+    "size": "{size}",
+    "download": "Télécharger le PDF",
+    "note": "Vous pouvez le lire en ligne ou le télécharger. Nous ne demandons pas d'email.",
+    "indexTitle": "Ce que vous allez trouver",
+    "topics": "Thèmes",
+    "demoNotice": "PDF d'exemple. L'édition complète sera publiée prochainement.",
+    "backToResources": "Retour aux ressources",
+    "updated": "Mis à jour le {date}"
+  },
+  "newsletter": {
+    "kicker": "Newsletter",
+    "title": "Une idée utile par mois",
+    "subtitle": "Développement web, IA appliquée et ressources que j'utilise vraiment. Sans bruit et sans vendre votre email.",
+    "benefits": {
+      "one": "Un apprentissage concret que vous pouvez appliquer la même semaine.",
+      "two": "Des ressources et des liens que j'ai testés avant de les recommander.",
+      "three": "Désinscription en un clic, sans questions ni friction."
+    },
+    "formTitle": "S'abonner",
+    "emailLabel": "Votre adresse email",
+    "emailPlaceholder": "vous@email.com",
+    "consentLabel": "J'accepte de recevoir la newsletter et j'ai lu la politique de confidentialité.",
+    "submit": "S'abonner",
+    "sending": "Envoi…",
+    "successTitle": "Vérifiez votre boîte mail",
+    "successText": "Nous vous avons envoyé un lien pour confirmer votre abonnement. Vous avez 48 heures pour l'activer.",
+    "errorTitle": "Impossible de terminer",
+    "errorText": "Réessayez dans quelques minutes. Si cela échoue encore, écrivez-moi directement.",
+    "privacyNote": "Double opt-in et désinscription en un clic. Vos données ne sont pas partagées avec des tiers au-delà du prestataire d'envoi.",
+    "doubleOptIn": "Double opt-in : vous confirmez d'abord par email, puis vous recevez du contenu.",
+    "unsubscribeNote": "Chaque email contient un lien pour se désinscrire immédiatement.",
+    "confirmTitle": "Abonnement confirmé",
+    "confirmText": "Vous faites maintenant partie de la newsletter. Merci d'être là.",
+    "invalidTitle": "Lien invalide",
+    "invalidText": "Le lien a expiré ou a déjà été utilisé. Vous pouvez en demander un nouveau depuis la page newsletter.",
+    "backHome": "Retour à l'accueil"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Dites-moi ce que vous avez en tête",
+    "subtitle": "Projets, collaborations ou question technique. Je lis tous les messages et je réponds personnellement.",
+    "availability": "Disponible pour de nouveaux projets",
+    "emailLabel": "Email direct",
+    "responseTime": "Je réponds sous 24 à 48 heures ouvrées.",
+    "socialTitle": "Je suis aussi sur",
+    "formTitle": "Envoyez-moi un message",
+    "name": "Nom",
+    "email": "Adresse email",
+    "subject": "Objet",
+    "message": "Message",
+    "consent": "J'accepte que mon message soit conservé pour répondre à cette demande.",
+    "submit": "Envoyer le message",
+    "sending": "Envoi…",
+    "successTitle": "Message envoyé",
+    "successText": "Merci d'avoir écrit. Je vous répondrai dès que possible.",
+    "errorTitle": "Impossible d'envoyer",
+    "errorText": "Vérifiez vos informations ou réessayez dans quelques minutes.",
+    "placeholder": {
+      "name": "Alex",
+      "email": "vous@email.com",
+      "subject": "Parlons de…",
+      "message": "Donnez-moi le contexte, l'objectif et les délais que vous avez en tête."
+    }
+  },
+  "footer": {
+    "tagline": "Un lieu entre développeurs pour apprendre et s'entraider.",
+    "navTitle": "Navigation",
+    "legalTitle": "Mentions légales",
+    "socialTitle": "Réseaux",
+    "newsletter": "Newsletter",
+    "rights": "Tous droits réservés.",
+    "builtWith": "Fait avec Next.js, TypeScript et beaucoup de café.",
+    "backToTop": "Retour en haut",
+    "status": "Site en construction · Phase 1"
+  },
+  "forms": {
+    "nameRequired": "Indiquez votre nom.",
+    "nameShort": "Le nom est trop court.",
+    "emailInvalid": "Indiquez une adresse email valide.",
+    "subjectShort": "L'objet est trop court.",
+    "messageShort": "Dites-m'en un peu plus (minimum 10 caractères).",
+    "consentRequired": "J'ai besoin de votre consentement pour continuer.",
+    "genericError": "Impossible d'envoyer. Réessayez.",
+    "networkError": "Pas de connexion au serveur. Réessayez plus tard.",
+    "fixErrors": "Vérifiez les champs signalés."
+  },
+  "legal": {
+    "draftNotice": "Version initiale de la politique. Elle sera complétée et révisée avant le lancement public.",
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "privacy": {
+      "intro": "Cette politique explique quelles données alexbyte.dev collecte, dans quel but et comment exercer vos droits.",
+      "dataTitle": "Données traitées",
+      "dataText": "Les données que vous envoyez volontairement via le formulaire de contact (nom, email, objet et message) et la newsletter (email et consentement). Nous conservons également des journaux techniques minimaux pour la sécurité et le fonctionnement du site.",
+      "purposeTitle": "À quoi elles servent",
+      "purposeText": "Répondre à vos messages, envoyer la newsletter si vous la confirmez et maintenir le site sécurisé. Nous n'utilisons pas vos données pour de la publicité tierce.",
+      "rightsTitle": "Vos droits",
+      "rightsText": "Vous pouvez demander l'accès, la rectification, l'effacement, la limitation ou l'opposition en écrivant à hola@alexbyte.dev. Vous pouvez aussi vous désinscrire de la newsletter depuis n'importe quel email.",
+      "contactTitle": "Responsable et contact",
+      "contactText": "Alex est responsable du traitement. Pour toute question de confidentialité, écrivez à hola@alexbyte.dev."
+    },
+    "terms": {
+      "intro": "Ces conditions régissent l'utilisation d'alexbyte.dev et des ressources proposées.",
+      "useTitle": "Utilisation du site",
+      "useText": "Vous pouvez naviguer et télécharger les ressources gratuites pour un usage personnel ou professionnel. La revente, la redistribution comme vôtres ou l'utilisation pour des activités illégales sont interdites.",
+      "contentTitle": "Contenu et propriété intellectuelle",
+      "contentText": "Les textes, marques, codes et designs appartiennent à Alex ou sont utilisés avec autorisation. Les projets marqués comme exemples sont des démonstrations et ne représentent pas des produits réels.",
+      "downloadsTitle": "Téléchargements",
+      "downloadsText": "Les applications et ressources sont fournies telles quelles, sans garantie de disponibilité ni d'adéquation à un usage particulier. Avant de télécharger une application, vous devez accepter ses conditions d'utilisation et sa politique de confidentialité.",
+      "liabilityTitle": "Responsabilité",
+      "liabilityText": "Le site peut contenir des liens externes dont nous ne contrôlons pas le contenu. Nous ne sommes pas responsables des dommages résultant d'un usage abusif du site ou des ressources.",
+      "changesTitle": "Modifications",
+      "changesText": "Ces conditions peuvent être mises à jour. La date de dernière mise à jour indique la version en vigueur."
+    },
+    "cookies": {
+      "intro": "alexbyte.dev utilise les cookies minimaux nécessaires à son fonctionnement. L'analytique n'est activée qu'avec votre consentement.",
+      "necessaryTitle": "Cookies nécessaires",
+      "necessaryText": "Ils permettent de mémoriser votre langue et de maintenir la sécurité du site. Sans eux, certaines fonctions ne marchent pas correctement.",
+      "analyticsTitle": "Cookies analytiques",
+      "analyticsText": "Google Analytics 4 ne se chargera que si vous acceptez l'analytique, avec Consent Mode v2. Vous pouvez la refuser sans perdre l'accès au contenu.",
+      "manageTitle": "Comment les gérer",
+      "manageText": "Vous pouvez supprimer ou bloquer les cookies dans les paramètres de votre navigateur. Si vous refusez l'analytique, aucun cookie de mesure ne sera installé.",
+      "contactTitle": "Plus d'informations",
+      "contactText": "Pour toute question sur les cookies, écrivez à hola@alexbyte.dev ou consultez la politique de confidentialité."
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Cette route n'existe pas",
+    "text": "Le lien a peut-être changé ou la page n'est pas encore publiée. Essayez depuis l'accueil.",
+    "cta": "Retour à l'accueil"
+  }
+}
